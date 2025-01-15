@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+.game-info {
+    margin-top: 20px; /* Spasi atas untuk pemisahan dari elemen lain */
+}
+
+.game-info p {
+    display: inline; /* Menjadikan paragraf ditampilkan secara inline */
+    margin-right: 20px; /* Jarak antara elemen */
+    font-size: 18px; /* Ukuran font untuk visibilitas yang lebih baik */
+}
+
+.countdown {
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+}
