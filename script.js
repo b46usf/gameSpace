@@ -14,7 +14,7 @@ const countdown = setInterval(function () {
 
     if (timeRemaining < 0) {
         clearInterval(countdown);
-        document.getElementById("timer").innerHTML = "Website Innovatech Launched!";
+        document.getElementById("timer").innerHTML = "Website Innovatech!";
     }
 }, 1000);
 
